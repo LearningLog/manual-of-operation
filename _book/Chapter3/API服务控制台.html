@@ -1,0 +1,875 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>7.2API服务控制台 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="水印管理.html" />
+    
+    
+    <link rel="prev" href="信息汇总.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    ONAIR视频云
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../Chapter1/">
+            
+                <a href="../Chapter1/">
+            
+                    
+                    一．    产品概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../Chapter2/">
+            
+                <a href="../Chapter2/">
+            
+                    
+                    二．    快速手册
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../Chapter2/登录.html">
+            
+                <a href="../Chapter2/登录.html">
+            
+                    
+                    1.    登录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../Chapter2/直播.html">
+            
+                <a href="../Chapter2/直播.html">
+            
+                    
+                    2.    直播
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../Chapter2/点播.html">
+            
+                <a href="../Chapter2/点播.html">
+            
+                    
+                    3.    点播
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    三．    功能详情
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="注册登录.html">
+            
+                <a href="注册登录.html">
+            
+                    
+                    1. 注册登录
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1.1" data-path="用户注册.html">
+            
+                <a href="用户注册.html">
+            
+                    
+                    1.1用户注册
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.2" data-path="用户登录.html">
+            
+                <a href="用户登录.html">
+            
+                    
+                    1.2用户登录
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="直播管理.html">
+            
+                <a href="直播管理.html">
+            
+                    
+                    2. 直播管理
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.2.1" data-path="新建通道.html">
+            
+                <a href="新建通道.html">
+            
+                    
+                    2.1新建通道
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.2" data-path="获取推流地址.html">
+            
+                <a href="获取推流地址.html">
+            
+                    
+                    2.2获取推流地址
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.3" data-path="获取播放地址.html">
+            
+                <a href="获取播放地址.html">
+            
+                    
+                    2.3获取播放地址
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.4" data-path="设置直播转码.html">
+            
+                <a href="设置直播转码.html">
+            
+                    
+                    2.4设置直播转码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.5" data-path="开启直播水印.html">
+            
+                <a href="开启直播水印.html">
+            
+                    
+                    2.5开启直播水印
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.6" data-path="获取播放器代码.html">
+            
+                <a href="获取播放器代码.html">
+            
+                    
+                    2.6获取播放器代码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.7" data-path="开启导播.html">
+            
+                <a href="开启导播.html">
+            
+                    
+                    2.7开启导播
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="轮播管理.html">
+            
+                <a href="轮播管理.html">
+            
+                    
+                    3.    轮播管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="内容管理.html">
+            
+                <a href="内容管理.html">
+            
+                    
+                    4.   内容管理
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.4.1" data-path="文件上传.html">
+            
+                <a href="文件上传.html">
+            
+                    
+                    4.1文件上传
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.2" data-path="文件管理.html">
+            
+                <a href="文件管理.html">
+            
+                    
+                    4.2文件管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.3" data-path="文件禁用-启用.html">
+            
+                <a href="文件禁用-启用.html">
+            
+                    
+                    4.3文件禁用-启用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.4" data-path="文件删除.html">
+            
+                <a href="文件删除.html">
+            
+                    
+                    4.4文件删除
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.5" data-path="视频剪辑.html">
+            
+                <a href="视频剪辑.html">
+            
+                    
+                    4.5视频剪辑
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.6" data-path="文件转码.html">
+            
+                <a href="文件转码.html">
+            
+                    
+                    4.6文件转码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.7" data-path="文件检测.html">
+            
+                <a href="文件检测.html">
+            
+                    
+                    4.7文件检测
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.8" data-path="视频打点.html">
+            
+                <a href="视频打点.html">
+            
+                    
+                    4.8视频打点
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="发布管理0.html">
+            
+                <a href="发布管理0.html">
+            
+                    
+                    5.   发布管理
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.5.1" data-path="新建发布.html">
+            
+                <a href="新建发布.html">
+            
+                    
+                    5.1新建发布
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5.2" data-path="发布管理.html">
+            
+                <a href="发布管理.html">
+            
+                    
+                    5.2发布管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5.3" data-path="互动管理.html">
+            
+                <a href="互动管理.html">
+            
+                    
+                    5.3互动管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5.4" data-path="删除发布.html">
+            
+                <a href="删除发布.html">
+            
+                    
+                    5.4删除发布
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="统计分析.html">
+            
+                <a href="统计分析.html">
+            
+                    
+                    6.    统计分析
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.6.1" data-path="资源用量.html">
+            
+                <a href="资源用量.html">
+            
+                    
+                    6.1资源用量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6.2" data-path="业务数据.html">
+            
+                <a href="业务数据.html">
+            
+                    
+                    6.2业务数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6.3" data-path="观看数据.html">
+            
+                <a href="观看数据.html">
+            
+                    
+                    6.3观看数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="控制中心.html">
+            
+                <a href="控制中心.html">
+            
+                    
+                    7.    控制中心
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.7.1" data-path="信息汇总.html">
+            
+                <a href="信息汇总.html">
+            
+                    
+                    7.1信息汇总
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.7.2" data-path="API服务控制台.html">
+            
+                <a href="API服务控制台.html">
+            
+                    
+                    7.2API服务控制台
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7.3" data-path="水印管理.html">
+            
+                <a href="水印管理.html">
+            
+                    
+                    7.3水印管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="用户中心.html">
+            
+                <a href="用户中心.html">
+            
+                    
+                    8.    用户中心
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.8.1" data-path="个人中心.html">
+            
+                <a href="个人中心.html">
+            
+                    
+                    8.1个人中心
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8.2" data-path="服务购买.html">
+            
+                <a href="服务购买.html">
+            
+                    
+                    8.2服务购买
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8.3" data-path="退出.html">
+            
+                <a href="退出.html">
+            
+                    
+                    8.3退出
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >7.2API服务控制台</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="72api&#x670D;&#x52A1;&#x63A7;&#x5236;&#x53F0;">7.2API&#x670D;&#x52A1;&#x63A7;&#x5236;&#x53F0;</h1>
+<p><img src="../images/86.png" alt="img"> </p>
+<p>&#x200B;    &#x56FE;3-7-2-1 API&#x670D;&#x52A1;&#x63A7;&#x5236;&#x53F0;</p>
+<p>&#x8F6C;&#x7801;API&#x670D;&#x52A1;&#x63A7;&#x5236;&#x53F0;&#x4E2D;&#x53EF;&#x8FDB;&#x884C;&#x8F6C;&#x7801;&#x7BA1;&#x7406;&#x4E0E;&#x4EFB;&#x52A1;&#x76D1;&#x63A7;&#xFF1A;</p>
+<h4 id="&#x8F6C;&#x7801;&#x7BA1;&#x7406;"><strong>&#x8F6C;&#x7801;&#x7BA1;&#x7406;</strong></h4>
+<p>&#x70B9;&#x51FB;&#x201C;&#x7ACB;&#x5373;&#x8FDB;&#x5165;&#x201D;&#xFF0C;&#x8FDB;&#x884C;&#x8F6C;&#x7801;&#x7BA1;&#x7406;</p>
+<p><img src="../images/87.png" alt="img"> </p>
+<p><img src="../images/88.png" alt="img"> </p>
+<p>&#x200B;    &#x56FE; 3-7-2-2 &#x8F6C;&#x7801;&#x7BA1;&#x7406;</p>
+<p>&#x914D;&#x7F6E;&#x64CD;&#x4F5C;&#x4E0E;&#x8BE6;&#x7EC6;&#x8BF4;&#x660E;&#xFF0C;&#x60A8;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x70B9;&#x51FB;&#x7EA2;&#x8272;&#x6846;&#x9009;&#x90E8;&#x5206;&#x8FDB;&#x884C;&#x67E5;&#x770B;&#x3002;</p>
+<p>&#x914D;&#x7F6E;&#x5B8C;&#x6210;&#x540E;&#xFF0C;&#x70B9;&#x51FB;&#x4FDD;&#x5B58;&#x5373;&#x53EF;&#x3002;</p>
+<h4 id="&#x4EFB;&#x52A1;&#x76D1;&#x63A7;"><strong>&#x4EFB;&#x52A1;&#x76D1;&#x63A7;</strong></h4>
+<p>&#x70B9;&#x51FB;&#x201C;&#x4EFB;&#x52A1;&#x76D1;&#x63A7;&#x201D;&#xFF0C;&#x8FDB;&#x5165;&#x5404;&#x9879;&#x4EFB;&#x52A1;&#x8FDB;&#x7A0B;&#x67E5;&#x770B;</p>
+<p><img src="../images/89.png" alt="img"> </p>
+<p>&#x200B;    &#x56FE; 3-7-2-3 &#x4EFB;&#x52A1;&#x76D1;&#x63A7;</p>
+<p>&#x652F;&#x6301;&#x65F6;&#x95F4;&#x9009;&#x62E9;&#xFF0C;&#x5BF9;&#x4EFB;&#x52A1;&#x8FDB;&#x884C;&#x76D1;&#x63A7;&#x67E5;&#x770B;&#xFF0C;&#x5305;&#x542B;&#x83B7;&#x53D6;&#x7684;SMN&#x4EFB;&#x52A1;&#x6570;&#x3001;&#x6210;&#x529F;&#x4E0E;&#x6267;&#x884C;&#x4E2D;&#x4EFB;&#x52A1;&#x6570;&#x3001;&#x5F02;&#x5E38;&#x4EFB;&#x52A1;&#x6570;&#x7B49;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="信息汇总.html" class="navigation navigation-prev " aria-label="Previous page: 7.1信息汇总">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="水印管理.html" class="navigation navigation-next " aria-label="Next page: 7.3水印管理">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"7.2API服务控制台","level":"1.4.7.2","depth":3,"next":{"title":"7.3水印管理","level":"1.4.7.3","depth":3,"path":"Chapter3/水印管理.md","ref":"Chapter3/水印管理.md","articles":[]},"previous":{"title":"7.1信息汇总","level":"1.4.7.1","depth":3,"path":"Chapter3/信息汇总.md","ref":"Chapter3/信息汇总.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Chapter3/API服务控制台.md","mtime":"2019-08-06T02:15:43.548Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-08-06T06:01:09.967Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
