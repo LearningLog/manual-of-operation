@@ -12,8 +12,7 @@
 	},
 	"links": {
 		"sidebar": {
-			"视频云ONAIR": "https://onair.yunshicloud.com/",
-			"视频云登录": "https://onair.yunshicloud.com/login.html"
+//			"视频云ONAIR": "https://onair.yunshicloud.com/"
 		}
 	},
 	"plugins": [
@@ -21,34 +20,11 @@
 		"splitter",
 		"expandable-chapters-small",
 		"anchors",
-
-		"github",
-		"github-buttons",
-		"donate",
 		"sharing-plus",
 		"anchor-navigation-ex",
 		"favicon"
 	],
 	"pluginsConfig": {
-		"github": {
-			"url": "https://github.com/Blankj"
-		},
-		"github-buttons": {
-			"buttons": [{
-				"user": "Blankj",
-				"repo": "glory",
-				"type": "star",
-				"size": "small",
-				"count": true
-			}
-			]
-		},
-		"donate": {
-			"alipay": "./source/images/donate.png",
-			"title": "",
-			"button": "赞赏",
-			"alipayText": " "
-		},
 		"sharing": {
 			"douban": false,
 			"facebook": false,
